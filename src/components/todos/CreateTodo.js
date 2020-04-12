@@ -17,7 +17,7 @@ class CreateTodo extends Component {
     event.preventDefault();
     this.props.addTodo(this.state);
   };
-  
+
   render() {
     return(
       <div>
